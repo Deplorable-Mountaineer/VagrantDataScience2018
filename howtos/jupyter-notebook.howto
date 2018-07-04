@@ -1,0 +1,10 @@
+###In guest:
+
+jupyter notebook --generate-config
+
+jupyter notebook password
+###choose a password, can't be blank
+
+jupyter notebook --ip 0.0.0.0
+###open browser on host, browse to localhost:8888, type 
+###   in the password you set if asked

@@ -1,0 +1,12 @@
+###Set up an account on kaggle.com, and in your profile, generate API key.
+
+###In Guest:
+
+###Place the key in  ~/.kaggle/kaggle.json
+
+chmod 600 ~/.kaggle/kaggle.json
+
+kaggle -h
+
+
+
