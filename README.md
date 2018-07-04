@@ -114,3 +114,6 @@ The howtos are reproduced here for convenience:
 * cowsay: for the heck of it
 
 * xml2json-command: for data wrangling
+
+
+## [Deplorable Mountaineer](https://www.deplorablemountaineer.com)
