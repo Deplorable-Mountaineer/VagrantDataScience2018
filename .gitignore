@@ -2,3 +2,4 @@
 .vagrant
 data
 www
+*.log

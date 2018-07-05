@@ -28,7 +28,7 @@ apt-get install -y octave
 
 toilet -f standard -k  Adding Packages to Python3
 pip3 install --upgrade pip
-pip3 install awscli bigmler csvkit numpy scipy nose skll matplotlib pandas numexpr tables openpyxl xlsxwriter xlrd feedparser beautifulsoup4 plotly statsmodels dataset pymongo nltk networkx deap pydot2 rpy2 jug nose
+pip3 install awscli bigmler csvkit numpy scipy nose skll matplotlib pandas numexpr tables openpyxl xlsxwriter xlrd feedparser beautifulsoup4 plotly statsmodels dataset pymongo nltk networkx deap pydot2 rpy2 jug nose pandas
 
 toilet -f standard -k  Installing Jupyter
 apt-get install -y jupyter-core jupyter-notebook
