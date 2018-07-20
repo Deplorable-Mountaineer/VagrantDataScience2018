@@ -76,9 +76,8 @@ done
 # Install Python2 and Python3
 ########################################################################
 
-
 toilet -f standard -k  Installing Python
-for x in python3-pip python3-all python3-all-dev python-all python-all-dev python-pip ipython ipython-notebook python3-tk; do
+for x in python3-pip python3-all python3-all-dev python-all python-all-dev python-pip ipython ipython-notebook python3-tk ipython3; do
     echo -e '\e[32m########################################################################\e[0m'
     echo -e "\e[32m# sudo apt-get -y install $x\e[0m"
     echo -e '\e[32m########################################################################\e[0m'
@@ -103,7 +102,7 @@ sudo apt-get install -y octave
 toilet -f standard -k  Adding Packages to Python3
 #sudo pip3 install --upgrade pip #Latest pip is broken, so comment out the upgrade
 
-for x in  awscli bigmler csvkit numpy scipy skll numexpr tables openpyxl xlsxwriter xlrd feedparser beautifulsoup4 plotly statsmodels dataset pymongo nltk networkx deap pydot rpy2 jug nose pandas matplotlib seaborn sklearn; do
+for x in  awscli bigmler csvkit numpy scipy skll numexpr tables openpyxl xlsxwriter xlrd feedparser beautifulsoup4 plotly statsmodels dataset pymongo nltk networkx deap pydot rpy2 jug nose pandas matplotlib seaborn sklearn mrjob lightgbm astropy glob2 graphviz gsl humanize markdown more-itertools natsort ply pyreadline scikit-image sympy tensorflow keras; do
     echo -e '\e[32m########################################################################\e[0m'
     echo -e "\e[32m# sudo pip3 install  $x\e[0m"
     echo -e '\e[32m########################################################################\e[0m'

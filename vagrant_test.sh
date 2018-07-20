@@ -6,8 +6,8 @@ echo -e '\e[32m#################################################################
 
 which python3 >/dev/null || echo "error: Python3 was not installed; try manually typing 'sudo apt-get install -y python3-pip python3-all python3-all-dev python-all python-all-dev python-pip ipython' on the guest command line."
 
-for x in awscli bigmler csvkit numpy scipy skll numexpr tables openpyxl xlsxwriter xlrd feedparser plotly statsmodels dataset pymongo nltk networkx deap rpy2 jug nose pandas matplotlib seaborn sklearn; do
-    python3 -c "import $x" || echo "error: Python3 $x package was not installed; try manually typing \'sudo pip3 install $x\' on the guest command line."
+for x in awscli bigmler csvkit numpy scipy skll numexpr tables openpyxl xlsxwriter xlrd feedparser plotly statsmodels dataset pymongo nltk networkx deap rpy2 jug nose pandas matplotlib seaborn sklearn lightgbm astropy glob2 graphviz gsl humanize markdown natsort ply skimage sympy tensorflow keras; do
+    python3 -c "import $x" >/dev/null 2>&1 || echo "error: Python3 $x package was not installed; try manually typing \'sudo pip3 install $x\' on the guest command line."
 done
 
 python3 -c "from bs4 import BeautifulSoup" || echo "error: Python3 BeautifulSoup package was not installed; try manually typing \'sudo pip3 install beautifulsoup4\' on the guest command line."
