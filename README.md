@@ -39,6 +39,8 @@ in the terminal.  This will take some time, a lot gets installed.
 8. If all goes well, you will see the howtos scroll by, and you can go to the machine by typing:
 
     vagrant ssh
+    
+9. It is recommended you type, at the guest command prompt you now see, /vagrant/vagrant_test.sh to do a quick sanity-test.  If all goes well, there will be no lines printed beginning with "error:".  If not, brief instructions are given on the error lines to attempt to fix the issues.  If this fails, please generate an [Issue](https://github.com/Deplorable-Mountaineer/VagrantDataScience2018/issues).
 
 ## Setting Up a Few Things
 
